@@ -1,7 +1,6 @@
 import curses
 import time
 from curses import wrapper
-
 def start_screen(stdscr):
     stdscr.clear()
     stdscr.addstr("Welcome to Speed Typing Test!")
